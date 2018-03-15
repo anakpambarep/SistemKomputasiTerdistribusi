@@ -9,13 +9,13 @@ app = Flask("Hello App")
 
 data_mhs = [
 	{
-		"nim" : 155150201111147,
-        "nama" : "Firman Budi Safrizal",
+		"nim" : 155150200111092,
+        "nama" : "Erdian Sahlan",
         "prodi" : "TIF"
 	},
     {
-        "nim" : 155150201111108,
-        "nama" : "Fadhlan Muhammad",
+        "nim" : 155150200111146,
+        "nama" : "Miftaqul Novandi",
         "prodi" : "TIF"
     }
 ]

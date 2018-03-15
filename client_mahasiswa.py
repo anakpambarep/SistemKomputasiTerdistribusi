@@ -22,7 +22,7 @@ def tambah_mahasiswa():
     # definisikan headernya
     header = {"Content-Type" : "application/json"}
     # definisikan bodynya
-    mahasiswa_baru = {'nim' : 212, 'nama' : "joni"}
+    mahasiswa_baru = {'nim' : 212, 'nama' : "erdian"}
     # kirim request POST /mahasiswa
     conn.request('POST','/mahasiswa', body=json.dumps(mahasiswa_baru), headers=header)
     #dapatkan response nya
@@ -36,7 +36,7 @@ def edit_mahasiswa(nim):
     # definisikan headernya
     header = {"Content-Type" : "application/json"}
     # definisikan bodynya
-    mahasiswa_baru = {'nama' : "hahahaha", 'prodi' : "TEKKOM"}
+    mahasiswa_baru = {'nama' : "anakpambarep", 'prodi' : "TIF"}
     # kirim request POST /mahasiswa
     conn.request('PUT',"/mahasiswa/"+str(nim), body=json.dumps(mahasiswa_baru), headers=header)
     #dapatkan response nya
@@ -44,5 +44,5 @@ def edit_mahasiswa(nim):
     print(resp)
 
 #tambah_mahasiswa()
-edit_mahasiswa(155150201111108)
+edit_mahasiswa(155150200111092)
 print("Data Mahasiswa : " + str(response))

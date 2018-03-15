@@ -1,3 +1,5 @@
+#author : erdiansahlan@student.ub.ac.id
+
 import socket, time, signal
 
 #inisiasi objek socket

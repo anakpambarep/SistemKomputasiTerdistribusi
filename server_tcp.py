@@ -1,3 +1,5 @@
+#author : erdiansahlan@student.ub.ac.id
+
 import socket,threading
 
 def handle_thread(conn):
